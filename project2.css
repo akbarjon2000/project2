@@ -1,0 +1,111 @@
+body{
+    background-image:url(/workplace/project2img/background.jpg);
+    background-size: cover;
+display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.base{
+width: 500px;
+height: 450px;
+background-color: #fff;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 100px;
+
+
+}
+.icon  {
+    width: 70px;;
+    position: relative;
+    margin-left: 25px;
+
+}
+.row{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    width: 100%;
+    height: 70px;
+    padding-top: 15px;
+}
+.cardname{
+position: relative;
+left: 30px;
+top: -10px;
+}
+.next{
+    background-color: #4361ee;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+   
+    width: 100%;
+    text-align: center;
+}
+button{
+    width: 100%;
+    height: 65px;
+    background-color: #1e88e5;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+}
+.payment{
+    height: 122px;
+    position: relative;
+top: 20px;
+font-family: sans-serif;
+
+
+}
+.arrow{
+    width: 5%;
+}
+span{
+    position: relative;
+    top: -5px;
+}
+h1{
+    font-weight: 525;
+}
+.visa{
+    color: #999;
+}
+.check{
+    width:170%;
+    position: relative;
+    left: 180px;
+    top: 4px;
+}
+.row:hover{
+    background-color: #edf2fb;
+}
+button:hover{
+    background-color: #42a5f5;
+}
+.mastercard{
+    border: none;
+}
+.circle{
+width: 3%;
+height: 7%;
+background-color: #dee2e6;
+display: inline-block;
+justify-content: center;
+text-align: center;
+
+border-radius: 50%;
+position: relative;
+left: 110px;
+margin-left: 8px;
+}
+.circle:nth-of-type(1){
+    background-color: #8d99ae;
+}
